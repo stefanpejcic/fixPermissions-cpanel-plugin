@@ -30,9 +30,12 @@ Fix permissions for each domain under a cpanel account
 ### Using another cpanel template?
 
 Change the path to the fixperms.sh in index.live.php on line 38:
-```
-exec('/usr/local/cpanel/base/frontend/paper_lantern/fix/./fixperms.sh -a $USER', $output, $status);
-```
+```/usr/local/cpanel/base/frontend/paper_lantern/fix/./fixperms.sh```
+
+### Run the script for all cpanel accounts?
+
+Use the -all flag:
+```/usr/local/cpanel/base/frontend/paper_lantern/fix/./fixperms.sh -all```
 
 ----------------------
 
