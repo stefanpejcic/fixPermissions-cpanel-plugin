@@ -1,4 +1,5 @@
-# fixPermissions-cpanel-plugin
+## fixPermissions cpanel plugin
+
 Fix permissions for each domain under a cpanel account
 
 <img src="https://raw.githubusercontent.com/stefanpejcic/fixPermissions-cpanel-plugin/main/assets/screenshot.png"></img>
